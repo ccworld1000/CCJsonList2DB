@@ -6,9 +6,9 @@
 
 # spec for convert stock file to database file 'HSAloneStockFile.hs'.
 # site : https://github.com/ccworld1000/CCJsonList2DB
-# https://github.com/ccworld1000/CCJsonList2DB/tree/master/HSAloneStockFile
+# https://github.com/ccworld1000/CCJsonList2DB/blob/master/CCJsonList2DB
 
 chmod 744 CCJsonList2DB
-echo "./CCJsonList2DB CDefaultNetworkingFile.json \"HSAloneStockFile.hs\""
-./CCJsonList2DB CDefaultNetworkingFile.json "HSAloneStockFile.hs"
-rm -rf HSAloneStockFile.hs-wal HSAloneStockFile.hs-shm
+echo "./CCJsonList2DB CCKeyValue.json"
+./CCJsonList2DB CCKeyValue.json
+rm -rf 'CCJsonList2DB.db-wal' 'CCJsonList2DB.db-shm'
