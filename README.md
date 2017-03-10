@@ -47,3 +47,5 @@ sh autoCCKeyValue.sh
 
 ## Other
 #### you can change autoCCKeyValue.sh
+
+## HSAloneStockFile [sepc for HSAloneStockFile]
